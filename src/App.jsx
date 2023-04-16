@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import {
   Contact,
-  DarkMode,
   Footer,
   Hero,
   Portfolio,
   Timeline,
 } from "./components";
-import Socmed from "./components/Socmed";
 
 function App() {
   return (

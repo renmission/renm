@@ -6,12 +6,6 @@ const Hero = () => {
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {
-    // if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    //   setTheme("dark");
-    // } else {
-    //   setTheme("light");
-    // }
-
     if (
       localStorage.theme === "dark" ||
       (!("theme" in localStorage) &&
@@ -72,7 +66,7 @@ const Hero = () => {
     <>
       <div className="flex flex-col items-center justify-center h-auto w-auto">
         <div className="grid items-center justify-items-center">
-          <div className="grid items-center justify-items-center text-center mt-36 mb-16 md:mt-28 md:mb-12">
+          <div className="grid items-center justify-items-center text-center mt-16 mb-16 md:mt-26 md:mb-26">
             <div className="flex flex-row-reverse mb-6">
               <div>
                 <button
