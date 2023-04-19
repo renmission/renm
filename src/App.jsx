@@ -6,6 +6,7 @@ import {
   Portfolio,
   Timeline,
 } from "./components";
+import Stack from "./components/Stack";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Hero />
           <Portfolio />
           <Timeline />
+          <Stack />
           <Contact />
           <Footer />
         </div>
