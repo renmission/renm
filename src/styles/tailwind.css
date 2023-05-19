@@ -95,3 +95,8 @@
     @apply bg-white/80 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 flex items-center h-[9vh] fixed top-0 left-0 right-0 opacity-100 z-[100] shadow-sm shadow-slate-100;
   }
 }
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
