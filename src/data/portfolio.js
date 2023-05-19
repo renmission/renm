@@ -7,6 +7,13 @@ export default [
         github: 'https://github.com/renmission/travigo-app',
     },
     {
+        title: 'MR Store',
+        imgUrl: '/assets/mrstore.png',
+        stack: ['NextJS', 'CSS', 'Context API', 'Sanity'],
+        link: 'https://ecommerce-mr-store.vercel.app/',
+        github: 'https://github.com/renmission/ecommerce-mr-store',
+    },
+    {
         title: 'Median',
         imgUrl: '/assets/median.png',
         stack: ['React', 'TypeScript', 'TailwindCSS', 'NextJs', 'GraphQL'],
