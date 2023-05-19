@@ -14,6 +14,13 @@ export default [
         github: 'https://github.com/renmission/ecommerce-mr-store',
     },
     {
+        title: 'CarHub',
+        imgUrl: '/assets/carhub.png',
+        stack: ['React', 'TypeScript', 'TailwindCSS', 'Styled-components', 'GraphQL'],
+        link: 'https://cars-aohscxufj-renmission.vercel.app/',
+        github: 'https://github.com/renmission/cars-app',
+    },
+    {
         title: 'Median',
         imgUrl: '/assets/median.png',
         stack: ['React', 'TypeScript', 'TailwindCSS', 'NextJs', 'GraphQL'],
