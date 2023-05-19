@@ -16,7 +16,7 @@ export default [
     {
         title: 'CarHub',
         imgUrl: '/assets/carhub.png',
-        stack: ['React', 'TypeScript', 'TailwindCSS', 'Styled-components', 'GraphQL'],
+        stack: ['React', 'TypeScript', 'Redux ToolKit', 'TailwindCSS', 'Styled-components', 'GraphQL'],
         link: 'https://cars-aohscxufj-renmission.vercel.app/',
         github: 'https://github.com/renmission/cars-app',
     },
